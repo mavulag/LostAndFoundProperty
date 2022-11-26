@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from www.lostings.com/private/company/admin by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Nov 2022 09:11:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="cm4ThVRMfsdwgdI2k3Eo1yFYaAaxrNm6BZGo4TJw">
+    <title>
+        ::Lostings::
+    </title>
+
+    <meta name="robots" content="noindex">
+    <meta name="description" content="overview &amp; stats"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+    <!-- bootstrap & fontawesome -->
+
+    <link rel="stylesheet" href="../public/assets/css/font-awesome.css"/>
+    <link rel="stylesheet" href="../public/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../public/assets/css/docs.css"/>
+    <link rel="stylesheet" href="../public/assets/css/docs-backend.css"/>
+    <link rel="stylesheet" href="../public/assets/css/css3.css"/>
+    <link rel="stylesheet" href="../public/assets/css/login.css"/>
+
+    <!-- basic scripts -->
+    <script src="../public/assets/js/jquery.2.1.1.min.js"></script>
+    <script src="../public/assets/js/bootstrap.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics Start-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108673351-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108673351-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics End -->
+    
+    <!--Google ReCaptcha -->
+    <script src='../../../www.google.com/recaptcha/api.js'></script>
+</head>
+<body class="login-layout blur-login ">
+
+<div class="main-container" id="main-container">
+    <div class="main-content">
+        <div class="login-container">
+    <div class="login-logo text-center">
+        <img src="../public/assets/images/logo-white.png" class="img-responsive" alt="">
+    </div>
+    <div class="notification-messages">
+                            </div>
+    <form class="login-form" role="form" method="POST" action="https://www.lostings.com/private/login">
+        <input type="hidden" name="_token" value="cm4ThVRMfsdwgdI2k3Eo1yFYaAaxrNm6BZGo4TJw">
+        <input type="hidden" name="user_group" value="2">
+        <div class="form-group">
+    <label class="text-center" for="email">Email Address</label>
+    <input type="email" name="email" class="form-control" id="email" value="" placeholder="Enter Email Address" required focus>
+    </div>
+
+
+<div class="form-group">
+    <label class="text-center" for="password">Password</label>
+    <input id="password" type="password" class="form-control" name="password" value=""  placeholder="Enter Password" required>
+    <a href="../password/email.html" class="forgot-password" >Forgot Password?</a>
+    </div>
+        <input type="hidden" name="recaptcha" id="recaptcha">
+        <div class="form-group clearfix ">
+            <input type="submit" name="" value="Login" class="btn btn-primary submit-button" />
+            <p class="agree-lostings">By logging in, you agree to Lostings' <a href="../../terms/index.html">Terms of Service</a> and <a href="../../privacy/index.html">Privacy Policy</a>.</p>
+        </div>
+        <div class="business-account">
+            <p>New to Lostings' for Business?</p>
+            <a href="register.html">Create a Business Account</a>
+        </div>
+    </form>
+</div>
+    </div>
+    <!-- /.main-content -->
+</div>
+<script src="../../../www.google.com/recaptcha/api5542.js?render=6LdGccgUAAAAAHNDNsK31Lkpc0zr6eGtPBQ1JIbu"></script>
+<script type="text/javascript">
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6LdGccgUAAAAAHNDNsK31Lkpc0zr6eGtPBQ1JIbu', { action: 'login' }).then(function (token) {
+            console.log(token);
+            if(token){
+                document.getElementById('recaptcha').value = token;
+            }
+        });
+    });
+</script>
+<!-- /.main-container -->
+    <script type="text/javascript">
+        //CUSTOM JS
+        $(function(){
+            setTimeout(function(){
+               $(".notification-messages").fadeOut();
+            }, 4000);
+        });
+    </script>
+</body>
+
+<!-- Mirrored from www.lostings.com/private/company/admin by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Nov 2022 09:11:57 GMT -->
+</html>

@@ -1,0 +1,220 @@
+/**-----------**/
+html{
+    height: 100%;
+}
+body {
+    background-color: #000;
+    min-height: 100%;
+    padding-bottom: 0;
+    font-size: 13px;
+    color: #393939;
+    line-height: 1.5;
+    background-image: url("../images/login-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.background-image {
+    background-image: url("../images/admin-background.jpg") !important;
+}
+
+/*
+-------------------------------------------------- */
+
+/* Responsive Style Start
+-------------------------------------------------- */
+body.login-layout{
+    height: 100%;
+}
+
+.login-layout .main-container {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    left: 50%;
+    width: 364px;
+}
+.required , .error .help-block {
+    color: #d16e6c;
+}
+
+.table-margin{margin-bottom: 0px !important;}
+.padding-right-10 {margin-right: 10px;}
+.no-border{border: none !important;}
+.logo .home-logo{
+    height:42px;
+    display: inline-block;
+}
+.search-form .input-group{
+    width: 100%;
+}
+.search-form .input-group>.btn,.search-form .input-group>a>.btn{padding: 2px 8px;}
+.loading{position: absolute;top:50%;left: 50%;}
+.btn-group a {text-decoration: none !important;}
+
+.no-skin .nav-list > li.active > a{font-weight: normal !important; }
+.arrow-wrap {position:absolute;z-index:1;left:50%;top:-5em;margin-left:-5em;width:10em;height:10em;padding:4em 2em;border-radius:50%;font-size:0.5em;display:block;}
+.arrow-wrap{-webkit-animation: arrows 5s 5s; -webkit-animation-delay: 5s;}
+
+.login-layout .widget-box.visible {
+    visibility: visible;
+    position: relative;
+}
+.ace-icon {
+    text-align: center
+}
+.input-icon {
+    position: relative;
+}
+.block {
+    display: block!important;
+}
+.login-layout .widget-box .widget-main form {
+    margin: 0;
+}
+.input-icon.input-icon-right>input {
+    padding-left: 6px;
+    padding-right: 24px;
+}
+.input-icon.input-icon-right>.ace-icon {
+    left: auto;
+    right: 3px;
+}
+.input-icon>.ace-icon {
+    padding: 0 3px;
+    z-index: 2;
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    left: 3px;
+    line-height: 30px;
+    display: inline-block;
+    color: #909090;
+    font-size: 16px;
+}
+.ace-icon {
+    text-align: center;
+}
+.login-layout .widget-box .widget-main {
+    padding: 16px 0 0;
+}
+.header.blue {
+    border-bottom-color: #d5e3ef;
+}
+h4.bigger {
+    font-size: 19px;
+}
+.header {
+    line-height: 28px;
+    margin-bottom: 16px;
+    margin-top: 18px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #CCC;
+}
+.blue {
+    color: #478fca!important;
+}
+.lighter {
+    font-weight: lighter;
+}
+.login-layout .login-box .widget-main {
+     padding-bottom: 16px; 
+}
+
+
+/* Added by gediya */
+
+.login-logo{margin-bottom: 29px;}
+.login-form{color: #fff;}
+.login-form .form-group{margin-bottom: 21px;}
+.login-form .form-group>label{display: block;font-weight: 300;font-size: 16px;margin-bottom: 6px;}
+.login-form .form-control{height: 36px;border-color: #7b7b7b;padding: 6px 15px;color: #000;font-size: 13px;background-color: #ffffff;}
+.login-form .form-control::-moz-placeholder {
+  color: #cccccc;
+}
+.login-form .form-control:-ms-input-placeholder {
+  color: #cccccc;
+}
+.login-form .form-control::-webkit-input-placeholder {
+  color: #cccccc;
+}
+.login-form .btn{font-size:16px;padding:7px 15px;margin-top:0;}
+.login-form .checkbox{margin-top: 0;}
+/*.login-form .checkbox label{line-height: 28px;min-height: 28px;position: relative;}*/
+.login-form .checkbox input[type="checkbox"]{top: 50%;margin-top: 0;transform: translateY(-50%);-webkit-transform: translateY(-50%);}
+.has-error .form-control {
+    border-bottom-color: #a94442 !important;
+    border-left-color: #a94442 !important;
+    border-right-color: #a94442 !important;
+    border-top-color: #a94442 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+}
+.login-form .submit-button{
+    width: 100%;
+}
+.agree-lostings{
+    font-weight: normal;
+    padding-top: 8px;
+    letter-spacing: 0.5;
+}
+.business-account{
+    width: 100%;
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+    background-color:rgba(138,138,138,0.6);
+    font-size: 15px;
+    line-height: 20px;
+}
+.login-form .form-group{
+    overflow: hidden;
+}
+.business-account p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.business-account a{
+    color: #bce9ff;
+}
+.agree-lostings a{
+    color: #bce9ff;
+}
+.forgot-password{
+    color: #bce9ff;
+    line-height:20px;   
+    float: right;
+
+}
+@media(max-width: 479px){
+    .login-layout .main-container {width: 280px;}
+}
+.comp_register {
+    margin-top: 5px;
+}
+.comp_register a{
+    font-family: 'HelveticaLight';
+}
+.btn_forgot_pwd{ margin-right:20px;}
+.login_chkbox {
+    padding-top: 10px;
+}
+.cmp_login_chkbox{
+    padding-top: 5px;
+}
+.cmp_login_chkbox input[type="checkbox"],.login_chkbox input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+.cmp_login_chkbox span, .login_chkbox span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.m-b-sm {
+    margin-bottom: 10px !important;
+}
