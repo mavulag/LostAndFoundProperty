@@ -30,5 +30,6 @@ Agustino
 
 Elliot
 
-##Demo
+## Demo:
+
 snowy-night-3406.on.fleek.co 
